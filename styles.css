@@ -1,0 +1,178 @@
+
+/* Estilos para el cuerpo de la página */
+body {
+  margin: 0px;
+  padding: 0;
+  font-family: 'Counter-Strike', sans-serif;
+  background-color: #181823;
+}
+
+/* Estilos para el encabezado de la página */
+header {
+  background-color: #181823;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: space-around; 
+  font-size: 15px;  
+  text-decoration: none !important;
+}
+
+
+a:active{
+  text-decoration: none;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+a:visited{
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  margin-top: 20px;
+
+}
+
+/* Estilos para la sección principal */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Forza Medium', sans-serif;
+}
+
+.portada{
+  background-image: url(https://images2.alphacoders.com/587/587592.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  margin: 0px;
+  width: 100%;
+}
+
+
+
+/* Estilos para las secciones */
+.section2 {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  margin: 10px;
+  border-radius: 10px;
+  border-color: #222;
+  color:black;
+  background-color: #537FE7;
+  padding: 5px;
+  width: min(750px, 95%);
+  height: 100vh;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  list-style:none;
+  text-decoration: none;
+}
+
+
+
+.section{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+/* Estilos para las secciones */
+section {
+  margin: 10px;
+  border-radius: 10px;
+  border-color: #222;
+  color:black;
+  background-color: #537FE7;
+  padding: 5px;
+  width: 240px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  list-style:none;
+  text-decoration: none;
+}
+
+/* Estilos para las imágenes */
+.imagenes {
+  display: flex;
+  flex-wrap: wrap;
+  width: 250px;
+  height: 210px;
+  margin: 0px;
+  border-radius: 10px;
+}
+
+section:hover {
+  color: rgba(255, 255, 255, 1) !important;
+  box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+  transition: all 0.2s ease;
+}
+
+.btn{
+  background-color: #EB6440;
+  color:white;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;  
+  font-size: 16px;
+  font-family: 'Forza Medium', sans-serif;
+}
+
+.btn:hover{
+    box-shadow: inset 0 0 20px rgba(49, 138, 172, 0.5), 0 0 20px rgba(49, 138, 172, 0.4);
+    outline-color: rgba(49, 138, 172, 0);
+    outline-offset: 80px;
+    text-shadow: 1px 1px 6px #44aa83;
+}
+
+/* Estilos para los títulos */
+h2 {
+  background-color: #343a40;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+/* Estilos para el footer */
+footer {
+	background-color: #181823;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+  bottom: 0;
+  width: 100%;
+  }
+
+  /* Estilos para los enlaces del footer */
+  footer a {
+	color: #fff;
+	text-decoration: none;
+	margin: 0 10px;
+  }
+
+  /* Estilos para los enlaces del footer al pasar el mouse */
+  footer a:hover {
+	text-decoration: underline;
+  }
